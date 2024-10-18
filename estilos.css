@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Bebas nuevo', cursive; */
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+
+
+body {
+
+    font-family: "Poppins"; sans-serif;
+    background: linear-gradient(to right, #81c0f8, #71fff8);
+width: 100%;
+height: 100vh;
+
+justify-content: center;
+align-items: center;
+
+}
+
+
+/*LA DISTANCIA DEL BORDE DE LA PAGINA*/
+.container {
+
+
+max-width: 1200px;
+margin: 0 auto;
+
+}
+
+.header {
+
+    background-image: url(imagenes/portada.svg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-content: space-between;
+    z-index: 1000;
+
+}
+
+.TELESALUD{
+font-size: 24px;
+color: #3C8DBC;
+font-weight: 800;
+text-transform: uppercase;
+
+}
+.menu .navbar ul li{
+position: relative;
+float: left;
+}
+
+.menu .navbar ul li a{
+font-size: 18px;
+padding: 20px;
+color: #ffffff;
+display: block;
+}
+
+.menu .navbar ul li a:hover {
+color: #050c6b;
+
+}
+
+#menu {
+    display: none;
+    
+    }
+
+.menu-icono {
+
+    width: 25px;
+    
+}
+
+.menu label {
+cursor: pointer;
+display: none;
+
+}
+
+.header-txt {
+text-align: center;
+margin-bottom: 45pxs;
+
+}
+
+/*/.header-txt h1, span, h3 {
+
+    font-size: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Bebas neue';
+    color: #02074d;
+    margin-bottom: 2px;
+
+
+}
+*/
+
+.header-txt h1 {
+
+    font-size: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Bebas neue';
+    color: #1b036e;
+
+    margin-bottom: -5px;
+    
+}
+
+/*
+.header-txt span {
+
+    font-size: 120px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Bebas neue';
+    color: #02074d;
+    margin-bottom: -70px;
+
+
+
+}
+*/
+
+.header-dir h3 {
+
+    font-size: 220px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Bebas neue';
+    color: #1b036e;
+    margin-bottom: 20px;
+
+}
+/*
+
+    
+.header-txt span {
+ font-size: 25px;
+ 
+}
+
+.header-txt p {
+    color: #141735;
+    padding: 0 250px;
+    margin: 25px 0;
+
+}
+*/
+
+.btn-1 {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #050c6b;
+    color: bisque;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Bebas neue';
+    margin: 25px 0;
+    border: 0;
+        
+}
+.btn-1:hover {
+    background-color: rgb(137, 151, 8);
+    }
+
+    .header-dir {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 50px;
+        
+    }
+    
+    .dir h3 {
+        font-size: 25px;
+        
+    }
+
+    .dir p {
+        font-size: 18px;
+        color: #000213;
+        text-transform: uppercase;
+        }
+
+        .welcome {
+            display: flex;
+        }
+        .welcome-1 {
+            background-image: url(imagenes/foto2.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 60%;
+    
+        }
+        .welcome-2 {
+            width: 50%;
+            padding: 20px 20px 150px 20px;
+            background: linear-gradient(to right, #81c0f8, #71fff8)
+        }
+
+       
+        h2{
+          font-size: 60px;
+          line-height: 100px;
+          color: #1b036e;
+          text-transform: uppercase;
+          font-family: 'Bebas neue';
+          margin-bottom: 20px;
+          
+        }
+       .texxx {
+        color: #000000;
+       }
+       .espacio {
+        color: #81c0f8;
+       }
+       
+       .services {
+
+        padding: 100px 0;
+        text-align: center; 
+       }
+       .services-txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+       }
+       hr {
+        border: 1px solid #ffffff;
+        width: 80px;
+       }
+
+       .services-txt p{
+        padding: 50px 150px;
+       }
+       .finall{
+        text-align: center;
+       }
+
+       .services-group {
+       display: flex;
+       justify-content: space-between;
+       margin: 115px 500;
+
+       }
+       .services-1{
+        background-color: #ffffff;
+        padding: 35px 25px;
+        margin 0 100px;
+        border-radius: 0px;
+
+       }
+       TAMAÑO DE LA IMAGEN
+       .services-1 img {
+        width: 50px;
+        margin-bottom: 10px;
+
+       }
+       
+       .services-1 h3{
+        font-size: 25px;
+        color: #03B2AD;
+
+       }
+       .services-1 a {
+        color: #03B2AD;
+       font-size: 16px;
+
+       }
+       
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #7a7a7a;
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 100%;
+	height: 210px;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido-card h3{
+	margin-bottom: 15px;
+	color: #7a7a7a;
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #2fb4cc;
+	border: 1px solid #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+	background: #2fb4cc;
+	color: #fff;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
